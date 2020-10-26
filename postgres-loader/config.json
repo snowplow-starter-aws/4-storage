@@ -1,0 +1,24 @@
+{
+  "schema": "iglu:com.snowplowanalytics.snowplow.storage/postgresql_config/jsonschema/3-0-0",
+  "data": {
+    "name": "Acme Ltd. Snowplow Postgres",
+    "id": "5c5e4353-4eeb-43da-98f8-2de6dc7fa947",
+    "source": {
+      "kinesis": {
+        "appName": "acme-postgres-loader",
+        "streamName": "snowplow-good-stream-enriched",
+        "region": "eu-central-1",
+        "initialPosition": "TRIM_HORIZON"
+      }
+    },
+
+    "host": "172.17.0.1",
+    "port": 5432,
+    "database": "snowplow",
+    "username": "postgres",
+    "password": "postgres",
+    "schema": "atomic",
+    "sslMode": "DISABLE",
+    "purpose": "ENRICHED_EVENTS"
+  }
+}
