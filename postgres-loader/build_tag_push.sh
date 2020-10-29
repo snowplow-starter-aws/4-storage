@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 IMAGE_TAG=0.1.0
 REPO=petersiemen
 NAME=snowplow-postgres-loader
