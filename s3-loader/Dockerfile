@@ -15,9 +15,6 @@ RUN mkdir -p /tmp/build && \
     rm -rf /tmp/build && \
     apk add --no-cache lzo
 
-
-#ENV AWS_ACCESS_KEY_ID=AKIAWAN7UYVQTHOJLSBZ
-#ENV AWS_SECRET_ACCESS_KEY=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
 ENV IN_STREAM_NAME=null
 ENV OUT_STREAM_NAME=null
 ENV S3_BUCKET=null
